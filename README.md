@@ -1,6 +1,6 @@
 # Weather App
 
-Page link: https://brira123.github.io/weather-app/
+Page link: https://kirannoor.github.io/weather-app/.
 
 ## This App developed by using the following links:
 
