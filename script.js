@@ -1,4 +1,5 @@
-var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+           var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 
 function getWeather() {
@@ -30,8 +31,9 @@ function getWeather() {
                 document.body.style.backgroundImage = "url('https://static.warthunder.ru/upload/image/!2018/02%20February/fog_on_97983d0948653b728a24e4d5b074de65.jpg')";
             }
             else if (icon === 'Clouds') {
-                document.querySelector(".main-icon").innerHTML='<i class="wi wi-cloud"></i>';
-                document.body.style.backgroundImage = "url('http://www.korkep.sk/wp-content/uploads/2018/06/cloudy-weather-2.jpg')";
+                document.querySelector(".main-icon").innerHTML = `<i class="wi wi-cloud"></i>`;
+                document.body.style.backgroundImage = "url('https://static.warthunder.ru/upload/image/!2018/02%20February/fog_on_97983d0948653b728a24e4d5b074de65.jpg')";
+
                 document.body.style.color = "white";
             }
             else if (icon === 'Rain') {
